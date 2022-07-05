@@ -25,6 +25,9 @@ The target predictive accuracy of the model was higher than 75%. Multiple models
 - The first model had 2 hidden layers, with 80 neurons in the first hidden layer and 30 in the second. 80 neurons were chosen since this was about 2 times the count of the input features. The relu activation function was chosen for both the input and hidden layers since we are looking for non-linear characteristics on mostly categorical data. The output function chosen was the sigmoid function since our output was binary (0 or 1). This model achieved an **accuracy score of 42%**.
 ![This is an image](https://github.com/dsilvaggio/Neural_Network_Charity_Analysis/blob/main/Resources/Screen%20Shot%202022-07-05%20at%201.54.27%20PM.png)
 - For the second attempt, I decided to use the Keras Tuner. I created a method that would return the optimal amount of neurons in the first layer, the number of hidden layers, the number of neurons in the hidden layers, and which activation function to use in the hidden layers. This model was able to achieve an **accuracy score of 73%**. 
+
+![This is an image](https://github.com/dsilvaggio/Neural_Network_Charity_Analysis/blob/main/Resources/Screen%20Shot%202022-07-05%20at%202.52.30%20PM.png)
+
 - I tried another model in which I increased the number of neurons in the hidden layers. I used about three times as many neurons as inputs in my first hidden layer, which was about 120. I then used 40 neurons for the second hidden layer. This model produced an **accuracy score of 38%**. 
 ![This is an image](https://github.com/dsilvaggio/Neural_Network_Charity_Analysis/blob/main/Resources/Screen%20Shot%202022-07-05%20at%201.56.16%20PM.png)
 - Finally, I tried one last model in which I added an extra hidden layer. I included 80 neurons in the first hidden layer, 30 in the second, and 10 in the third. This model had an **accuracy score of 50%**. 
