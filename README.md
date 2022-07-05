@@ -21,4 +21,8 @@ Before running the neural network model, our original CSV file needed to be prep
 6) This data was then split into training and testing sets and then scaled using the **StandardScalar()** instance.  
 
 ### Compiling, Training, and Evaluating the Model
+The target predictive accuracy of the model was higher than 75%. Multiple models were compiled and trained to reach this predictive accuract. 
+- The first model had 2 hidden layers, with 80 neurons in the first hidden layer and 30 in the second. 80 neurons was chosen since this was about 2 times the count of the input features. The relu activation function was chose for both the input and hidden layers since we are looking for non-linear characteristics on mostly categorical data. The output function chosen was the sigmoid function since our output was binary (0 or 1). This model achieved an accuracy score of 42%.
+- For the second attempt, I decided to use the Automated NN Optimizer. I created a method that would return the optimal amount of neurons in the first layer, the number of hidden layers, the amount of neurons in the hidden layers, and which activation function to use in the hidden layers. This model was able to achieve an accuracy score of 73%. 
+- I tried another model in which I increased the amount of neurons in the hidden layers. I used about three times as many neurons as inputs in my first hidden layer, which was about 120. I then used 40 neurons for the second hidden layer.  
 ## Summary
