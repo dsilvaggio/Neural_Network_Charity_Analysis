@@ -1,6 +1,13 @@
 # Neural_Network_Charity_Analysis
 ## Overview
-Alphabet Soup is a non-proft organization that has raised and donated over 10 billion dollars in the last 20 years. The impact of each donation needs to be analyzed to vet potential future recipients. A CSV file contaning more than 34,000 organizations that have recieved funding from Alphabet Soup was used to create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup.   
+Alphabet Soup is a non-proft organization that has raised and donated over 10 billion dollars in the last 20 years. The impact of each donation needs to be analyzed to vet potential future recipients. A [CSV file](https://github.com/dsilvaggio/Neural_Network_Charity_Analysis/blob/main/Resources/charity_data.csv) contaning more than 34,000 organizations that have recieved funding from Alphabet Soup was used to create a binary classifier that is capable of predicting whether applicants will be successful if funded by Alphabet Soup. 
+### Resources/Tools
+- [charity_data.csv](https://github.com/dsilvaggio/Neural_Network_Charity_Analysis/blob/main/Resources/charity_data.csv)
+- Pandas
+- TensorFlow
+- scikit- learn
+- Keras
+
 ## Results
 ### Data Preprocessing
 Before running the neural network model, our original CSV file needed to be preprocessed. 
