@@ -28,9 +28,11 @@ The target predictive accuracy of the model was higher than 75%. Multiple models
 
 ![This is an image](https://github.com/dsilvaggio/Neural_Network_Charity_Analysis/blob/main/Resources/Screen%20Shot%202022-07-05%20at%202.52.30%20PM.png)
 
-- I tried another model in which I increased the number of neurons in the hidden layers. I used about three times as many neurons as inputs in my first hidden layer, which was about 120. I then used 40 neurons for the second hidden layer. This model produced an **accuracy score of 38%**. 
+- I tried another model in which I increased the number of neurons in the hidden layers. I used about three times as many neurons as inputs in my first hidden layer, which was about 120. I then used 40 neurons for the second hidden layer. This model produced an **accuracy score of 60%**. 
 ![This is an image](https://github.com/dsilvaggio/Neural_Network_Charity_Analysis/blob/main/Resources/Screen%20Shot%202022-07-05%20at%201.56.16%20PM.png)
+
 - Finally, I tried one last model in which I added an extra hidden layer. I included 80 neurons in the first hidden layer, 30 in the second, and 10 in the third. This model had an **accuracy score of 50%**. 
 ![This is an image](https://github.com/dsilvaggio/Neural_Network_Charity_Analysis/blob/main/Resources/Screen%20Shot%202022-07-05%20at%201.58.15%20PM.png)
+
 ## Summary
 The closest I was able to get to the target predictive accuracy was with the Keras Tuner. This model received an accuracy score of 73%. However, it is possible that this model overfitted the data. I would recommend testing a different model for this data set since we were unable to achieve the target accuracy. A Random Forest model could be tested in this data since our data is tabular and nonlinear. We would also test an SVM model since we know our data is testing a binary classification problem.   
